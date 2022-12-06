@@ -10,7 +10,7 @@ def read_file_and_organise_hierarchy(filename):
         dic = {}
         col_names = reader[0]
         candidates_tier1 = []
-        candidates_tier_2_and_3 = []
+        candidates_n_tier = []
         
         for i in range(len(reader[0])):
             dic[i] = []
@@ -34,16 +34,16 @@ def read_file_and_organise_hierarchy(filename):
                 if i == 9:
                     print(len(dic[i]))
                     print(len(set(dic[i])))
-                candidates_tier_2_and_3.append(col_names[i])
+                candidates_n_tier.append(col_names[i])
             #checks to see if all values in a col are unique
             else:
                 print(i)
                 candidates_tier1.append(col_names[i])
-    return candidates_tier1,candidates_tier_2_and_3
+    return candidates_tier1,candidates_n_tier
 
 
 def main():
-    filename = "ecan_data-17-sep-19.csv"
+    filename = "covid-19 20-April.csv"
 
     T1,other_tiers = read_file_and_organise_hierarchy(filename)
     print(other_tiers)
