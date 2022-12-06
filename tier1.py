@@ -6,6 +6,7 @@ def read_file_and_organise_hierarchy(filename):
         reader = list(csv.reader(file))
         number_of_columns = len(reader[0])
         number_of_rows = len(reader[0])
+        
         dic = {}
         col_names = reader[0]
         candidates_tier1 = []
@@ -13,6 +14,7 @@ def read_file_and_organise_hierarchy(filename):
         
         for i in range(len(reader[0])):
             dic[i] = []
+            
     
         #Map column number to a list of all corresponding values in CSV
         for i in range(1,number_of_rows):
@@ -20,9 +22,9 @@ def read_file_and_organise_hierarchy(filename):
                 dic[j].append(reader[i][j])
 
     
-    #sort dictionary by most universal fields first
-    dic2 = dict(sorted(dic.items(), key=lambda item: len(set(item[1]))))
-    for i in dic2:
+    #sort dictionary by most universal fields first using set theory 
+    dic = dict(sorted(dic.items(), key=lambda item: len(set(item[1]))))
+    for i in dic:
         #check to see if col is numeric 
         if dic[i][0].isnumeric() == False:
             candidates_tier_2_and_3.append(col_names[i])
@@ -35,11 +37,19 @@ def read_file_and_organise_hierarchy(filename):
 def main():
     filename = "ecan_data-17-sep-19 (2).csv"
 
-    T1,T2_3 = read_file_and_organise_hierarchy(filename)
-    print(f"Recomended tier 3 subject --->  {T2_3[0]}")
-    print(f"Recomended tier 2 subject --->  {T2_3[1]}")
+    T1,other_tiers = read_file_and_organise_hierarchy(filename)
+    Max_number_of_levels = len(other_tiers)
+    number_of_levels = int(input(f"Please specify how many levels you would like in your application(Max num layers --> {Max_number_of_levels}) "))
+    while number_of_levels < 1 or number_of_levels > Max_number_of_levels:
+        print("Your chosen hierarchy is not valid\ntry again")
+        number_of_levels = int(input(f"Please specify how many levels you would like in your application(Max num layers --> {Max_number_of_levels}) "))
+
+
     print(f"Available tier 1 subjects --->  {T1}")
     
+    for i in range(number_of_levels-1):
+        print(f"Recomended tier {i+2} subject --->  {other_tiers[i]}")
+        # print(f"Recomended tier 2 subject --->  {other_tiers[1]}")
 
 
 main()
