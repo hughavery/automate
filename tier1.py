@@ -17,7 +17,7 @@ def read_file_and_organise_hierarchy(filename):
             
     
         #Map column number to a list of all corresponding values in CSV
-        print(number_of_rows)
+      
         for i in range(1,number_of_rows):
             for j in range(number_of_columns):
                 dic[j].append(reader[i][j])
@@ -25,19 +25,15 @@ def read_file_and_organise_hierarchy(filename):
     
     #sort dictionary by most universal fields first using set theory 
     dic = dict(sorted(dic.items(), key=lambda item: len(set(item[1])),reverse=True))
-    print(dic)
+
     for i in dic:
         #check to see if col is numeric 
         if dic[i][0].isnumeric() == False:
             #checks to see if all values in a col are unique
             if len(dic[i]) != len(set(dic[i])):
-                if i == 9:
-                    print(len(dic[i]))
-                    print(len(set(dic[i])))
                 candidates_n_tier.append(col_names[i])
             #checks to see if all values in a col are unique
             else:
-                print(i)
                 candidates_tier1.append(col_names[i])
     return candidates_tier1,candidates_n_tier
 
