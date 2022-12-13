@@ -2,7 +2,7 @@ import csv
 from collections import Counter
 
 # Read the rows of the CSV file into a list of dictionaries
-with open("ecan_data-17-sep-19.csv") as csvfile:
+with open("transport.csv") as csvfile:
   reader = csv.DictReader(csvfile)
   
   rows = list(reader)
@@ -16,7 +16,7 @@ sorted_columns = sorted(counters, key=lambda x: len(counters[x]), reverse=True)
 
 # Print the hierarchy
 print("Hierarchy:")
-print(counters[sorted_columns[0]])
+
 for column in sorted_columns:
     
   

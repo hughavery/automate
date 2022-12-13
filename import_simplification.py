@@ -5,22 +5,17 @@ from dateutil import parser
 def bad_tier_choice(column_data):
     """checks if a column is relevant for model"""
     ratio = len(column_data) / len(set(column_data))
+
+    #To close to being a tier 1
     if 1 < ratio < 1.2:
         return True
 
+    #all values in column are same 
     if len(set(column_data)) == 1:
         return True
 
     return False
 
-
-
-def is_date(string):
-  try:
-    date = parser.parse(string)
-    return True
-  except ValueError:
-    return False
 
 
 def read_file_and_organise_hierarchy(filename):
@@ -47,7 +42,7 @@ def read_file_and_organise_hierarchy(filename):
 
     for i in dic:
         column_data = dic[i]
-        if bad_tier_choice(column_data) or is_date(column_data[0]) or column_data[0].isnumeric():
+        if bad_tier_choice(column_data) or column_data[0].isnumeric() and int(column_data[0]) not in range(2000,2030):
             continue
 
         if len(column_data) == len(set(column_data)):
@@ -60,9 +55,10 @@ def read_file_and_organise_hierarchy(filename):
     return candidates_tier1,candidates_n_tier
 
 def main():
-    # filename = "covid-19 16-April.csv"
+    filename = "covid-19 16-April.csv"
     # filename = "covid-19 20-April.csv"
     filename = "ecan_data-17-sep-19.csv"
+    # filename = "transport.csv"
 
     t1,other_tiers = read_file_and_organise_hierarchy(filename)
     if len(t1) == 0:
@@ -75,6 +71,7 @@ def main():
         number_of_levels = int(input(f"Please specify how many levels you would like in your application(Max num layers --> {Max_number_of_levels}) "))
 
     other_tiers.reverse()
+    
     print(f"Available tier 1 subjects --->  {t1}")
     counter = 2
     for i in range(number_of_levels,1,-1):
