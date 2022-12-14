@@ -2,18 +2,26 @@ import csv
 
 
 
-def bad_tier_choice(column_data):
+def good_tier_choice(column_data,col_name):
     """checks if a column is relevant for model"""
     ratio = len(column_data) / len(set(column_data))
 
     #To close to being a tier 1
     if 1 < ratio < 1.2:
-        return True
+        return False
 
+    if column_data[0].isnumeric() and column_data[0] not in range(2000,2030):
+        tier1_indicator = ["unique","id","distinct","identifier"]
+        for j in tier1_indicator:
+            if j in col_name:
+                return True
+        return False
+    
     #all values in column are same 
     if len(set(column_data)) == 1 or len(set(column_data)) > 20:
-        return True
-    return False
+        return False
+
+    return True
 
 def read_file_and_organise_hierarchy(filename):
     with open(filename, encoding='utf-8-sig') as file:
@@ -40,16 +48,14 @@ def read_file_and_organise_hierarchy(filename):
     for i in dic:
         column_data = dic[i]
         
-        if len(column_data) == len(set(column_data)):
-            #tier1
-            candidates_tier1.append(col_names[i])
-            continue
-
         #checks if tier is a good choice and is not numeric and is not a date
-        if bad_tier_choice(column_data) or column_data[0].isnumeric() and int(column_data[0]) not in range(2000,2030):
-            continue
-
-        candidates_n_tier.append(col_names[i])
+        if good_tier_choice(column_data,col_names[i].lower()):
+            #tier1
+            if len(column_data) == len(set(column_data)):
+                candidates_tier1.append(col_names[i])
+                continue
+            else:
+                candidates_n_tier.append(col_names[i])
 
     return candidates_tier1, candidates_n_tier
 
