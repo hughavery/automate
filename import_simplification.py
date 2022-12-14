@@ -1,5 +1,5 @@
 import csv
-from dateutil import parser
+
 
 
 def bad_tier_choice(column_data):
@@ -11,12 +11,9 @@ def bad_tier_choice(column_data):
         return True
 
     #all values in column are same 
-    if len(set(column_data)) == 1:
+    if len(set(column_data)) == 1 or len(set(column_data)) > 20:
         return True
-
     return False
-
-
 
 def read_file_and_organise_hierarchy(filename):
     with open(filename, encoding='utf-8-sig') as file:
@@ -31,7 +28,7 @@ def read_file_and_organise_hierarchy(filename):
         for i in range(len(reader[0])):
             dic[i] = []
             
-        #Map column number to a list of all corresponding values in CSV
+        # Map column number to a list of all corresponding values in CSV
         for i in range(1,number_of_rows):
             for j in range(number_of_columns):
                 dic[j].append(reader[i][j])
@@ -42,23 +39,28 @@ def read_file_and_organise_hierarchy(filename):
 
     for i in dic:
         column_data = dic[i]
-        if bad_tier_choice(column_data) or column_data[0].isnumeric() and int(column_data[0]) not in range(2000,2030):
-            continue
-
+        
         if len(column_data) == len(set(column_data)):
             #tier1
             candidates_tier1.append(col_names[i])
-        else:
-            #other tiers
-            candidates_n_tier.append(col_names[i])
+            continue
 
-    return candidates_tier1,candidates_n_tier
+        #checks if tier is a good choice and is not numeric and is not a date
+        if bad_tier_choice(column_data) or column_data[0].isnumeric() and int(column_data[0]) not in range(2000,2030):
+            continue
+
+        candidates_n_tier.append(col_names[i])
+
+    return candidates_tier1, candidates_n_tier
 
 def main():
-    filename = "covid-19 16-April.csv"
+    # Files to TEST algorithm 
+    # filename = "covid-19 16-April.csv"
     # filename = "covid-19 20-April.csv"
-    filename = "ecan_data-17-sep-19.csv"
+    # filename = "ecan_data-17-sep-19.csv"
     # filename = "transport.csv"
+    filename = "Christchurch NZ data.csv"
+    # filename= "Gisborne Dc LTPB.csv"
 
     t1,other_tiers = read_file_and_organise_hierarchy(filename)
     if len(t1) == 0:
@@ -70,10 +72,11 @@ def main():
         print("Your chosen hierarchy is not valid\ntry again")
         number_of_levels = int(input(f"Please specify how many levels you would like in your application(Max num layers --> {Max_number_of_levels}) "))
 
-    other_tiers.reverse()
+    
     
     print(f"Available tier 1 subjects --->  {t1}")
     counter = 2
+    other_tiers.reverse()
     for i in range(number_of_levels,1,-1):
         print(f"Recomended tier {counter} subject --->  {other_tiers[i-2]}")
         counter += 1

@@ -1,0 +1,109 @@
+﻿ID,Year,Quarter,Timeline,Name of Company,Location,Sector,Deals,Round,Stage,Value,Lead Investor,Syndication Partners,Jan-20,Feb-20,Mar-20,Apr-20,May-20,Jun-20,Jul-20,Aug-20,Sep-20,Oct-20,Nov-20,Dec-20,Q1,Q2,Q3,Q4
+3,2020,Q1,Feb-20,Coherent Solutions,Auckland,Technology Hardware & Equipment,1,2,Start-up,1500000,Private,"KIW1, Aspire",0,1500000,0,0,0,0,0,0,0,0,0,0,1500000,0,0,0
+4,2020,Q1,Feb-20,Retirement Income Group,Auckland,Software & Services,1,6,Early Expansion,500000,Enterprise Angels,Enterprise Angels,0,500000,0,0,0,0,0,0,0,0,0,0,500000,0,0,0
+5,2020,Q1,Feb-20,Terax Innovation,Auckland,"Pharmaceuticals, Biotechnology & Life Sciences",1,1,Proof of Concept,750000,Pacific Channel,"Pacific Channel, private investors",0,750000,0,0,0,0,0,0,0,0,0,0,750000,0,0,0
+7,2020,Q1,Mar-20,Aquafortus,Auckland,Capital Goods,1,3,Seed,2500000,Launch Taranaki,"Launch Taranaki, AstraLab, Aspire",0,0,2500000,0,0,0,0,0,0,0,0,0,2500000,0,0,0
+8,2020,Q1,Mar-20,Freight Fish,Auckland,Transportation,1,2,Start-up,1500000,Blackbird Ventures,"Icehouse Ventures, K1W1",0,0,1500000,0,0,0,0,0,0,0,0,0,1500000,0,0,0
+9,2020,Q1,Mar-20,Insite.AI (formerly DemandForcasting.com),Auckland,Software & Services,1,3,Proof of Concept,1000000,Private,"KIW1, Aspire",0,0,1000000,0,0,0,0,0,0,0,0,0,1000000,0,0,0
+11,2020,Q1,Mar-20,Nectar,Auckland,Software & Services,1,5,Early Expansion,750000,Eden Ventures,Eden Ventures,0,0,750000,0,0,0,0,0,0,0,0,0,750000,0,0,0
+14,2020,Q1,Mar-20,Spoke Network Limited,Auckland,Software & Services,1,3,Start-up,1500000,Enterprise Angels,"Enterprise Angels, Icehouse Ventures, Flying Kiwi Angels, Aspire",0,0,1500000,0,0,0,0,0,0,0,0,0,1500000,0,0,0
+16,2020,Q1,Mar-20,Tinderbox Media Limited (t/a Moxion),Auckland,Software & Services,1,3,Start-up,1000000,Flying Kiwi Angels,"Flying Kiwi Angels, other angels",0,0,1000000,0,0,0,0,0,0,0,0,0,1000000,0,0,0
+17,2020,Q1,Mar-20,Voltaic Innovations,Auckland,Transportation,1,1,Start-up,500000,Impact Enterprise Fund,"Icehouse Ventures, K1W1, Aspire",0,0,500000,0,0,0,0,0,0,0,0,0,500000,0,0,0
+20,2020,Q2,Apr-20,Ambit Limited,Auckland,Software & Services,1,2,Start-up,1000000,Flying Kiwi Angels,"FKA, Aspire",0,0,0,1000000,0,0,0,0,0,0,0,0,0,1000000,0,0
+21,2020,Q2,Apr-20,Chnnl,Auckland,Software & Services,1,1,Seed,1000000,Cure Kids Ventures,"Cure Kids Ventuers, Flying Kiwi Angels",0,0,0,1000000,0,0,0,0,0,0,0,0,0,1000000,0,0
+22,2020,Q1,Apr-20,Compliance Audit Systems,Auckland,Software & Services,1,1,Start-up,250000,UniServices,Matu Fund,0,0,0,250000,0,0,0,0,0,0,0,0,250000,0,0,0
+23,2020,Q1,Apr-20,KARA Technologies,Auckland,Software & Services,1,1,Start-up,250000,UniServices,"Soul Capital, Constellate",0,0,0,250000,0,0,0,0,0,0,0,0,250000,0,0,0
+24,2020,Q2,Apr-20,Orbis Diagnostics,Auckland,"Pharmaceuticals, Biotechnology & Life Sciences",1,2,Proof of Concept,750000,Pacific Channel,"Pacific Channel, Aspire",0,0,0,750000,0,0,0,0,0,0,0,0,0,750000,0,0
+25,2020,Q2,May-20,Argo Navis Aerospace Ltd,Auckland,Aerospace & Defense,1,1,Seed,250000,WNT Ventures,"WNT Ventures, private investors",0,0,0,0,250000,0,0,0,0,0,0,0,0,250000,0,0
+26,2020,Q2,May-20,Aroa (formerly Mesynthes Ltd),Auckland,"Pharmaceuticals, Biotechnology & Life Sciences",1,8,Expansion,2500000,Offshore VC,Unknown,0,0,0,0,2500000,0,0,0,0,0,0,0,0,2500000,0,0
+28,2020,Q2,May-20,Jasper,Auckland,Software & Services,1,3,Early Expansion,2500000,Private Investors,Private investors,0,0,0,0,2500000,0,0,0,0,0,0,0,0,2500000,0,0
+29,2020,Q2,May-20,Zenno Astronautics,Auckland,Aerospace & Defense,1,1,Seed,500000,UniServices,"UniServices, Aspire",0,0,0,0,500000,0,0,0,0,0,0,0,0,500000,0,0
+32,2020,Q2,Jun-20,FormusLabs,Auckland,Health Care Equipment & Services,1,2,Seed,750000,Flying Kiwi Angels,"Flying Kiwi Angels, Cure Kids Ventures, Aspire",0,0,0,0,0,750000,0,0,0,0,0,0,0,750000,0,0
+35,2020,Q2,Jun-20,MAIA,Auckland,Software & Services,1,1,Start-up,250000,UniServices,Unknown,0,0,0,0,0,250000,0,0,0,0,0,0,0,250000,0,0
+37,2020,Q2,Jun-20,StrutFit,Auckland,Software & Services,1,1,Start-up,500000,UniServices,"UniServies, K1W1, Aspire",0,0,0,0,0,500000,0,0,0,0,0,0,0,500000,0,0
+38,2020,Q2,Jun-20,Tectonus,Auckland,Materials,1,1,Start-up,1500000,UniServices,"UniServices, Angel HQ, Aspire",0,0,0,0,0,1500000,0,0,0,0,0,0,0,1500000,0,0
+40,2020,Q2,Jun-20,Weirdly,Auckland,Software & Services,1,1,Start-up,1500000,K1W1,"KIW1, Punakaiki Fund,Aspire",0,0,0,0,0,1500000,0,0,0,0,0,0,0,1500000,0,0
+41,2020,Q2,Jun-20,Wing Acoustics,Auckland,Capital Goods,1,2,Seed,1500000,Enterprise Angels,"Enterprise Angels, AIM, Aspire",0,0,0,0,0,1500000,0,0,0,0,0,0,0,1500000,0,0
+42,2020,Q3,Jul-20,Acuite,Auckland,Software & Services,1,4,Start-up,750000,Icehouse Ventures,K1W1,0,0,0,0,0,0,750000,0,0,0,0,0,0,0,750000,0
+45,2020,Q3,Jul-20,Tinderbox Media Limited (t/a Moxion),Auckland,Software & Services,1,3,Start-up,750000,Flying Kiwi Angels,"Flying Kiwi Angels, other angels",0,0,0,0,0,0,750000,0,0,0,0,0,0,0,750000,0
+46,2020,Q3,Jul-20,AoAir,Auckland,Consumer Durables & Apparel,1,1,Seed,2500000,Blackbird Ventures,"Blackbird,  Oregon Sports Angels",0,0,0,0,0,0,2500000,0,0,0,0,0,0,0,2500000,0
+49,2020,Q3,Jul-20,Narrative,Auckland,Software & Services,1,2,Start-up,2500000,Offshore VC,"Founders Fund, Icehouse Ventures, Aspire Fund",0,0,0,0,0,0,2500000,0,0,0,0,0,0,0,2500000,0
+50,2020,Q3,Jul-20,Preno,Auckland,Software & Services,1,4,Start-up,1500000,Icehouse Ventures,"Icehouse Ventures, private investors",0,0,0,0,0,0,1500000,0,0,0,0,0,0,0,1500000,0
+51,2020,Q3,Aug-20,Feed My Furbaby,Auckland,Consumer Durables & Apparel,1,2,Start-up,500000,Icehouse Ventures,Private Investors,0,0,0,0,0,0,0,500000,0,0,0,0,0,0,500000,0
+56,2020,Q3,Aug-20,Insite AI,Auckland,Software & Services,1,2,Seed,2500000,Offshore VC,"EVP, Enterprise Angels,",0,0,0,0,0,0,0,2500000,0,0,0,0,0,0,2500000,0
+57,2020,Q3,Aug-20,LearnCoach,Auckland,Software & Services,1,1,Start-up,2500000,Icehouse Ventures,"Icehouse Ventures, Impact Enterprise Fund",0,0,0,0,0,0,0,2500000,0,0,0,0,0,0,2500000,0
+58,2020,Q3,Aug-20,Portainer,Auckland,Software & Services,1,1,Start-up,2000000,Offshore VC,"Offshore VC, AmpliPHI Ventures, Movac",0,0,0,0,0,0,0,2000000,0,0,0,0,0,0,2000000,0
+62,2020,Q3,Sep-20,FileInvite,Auckland,Software & Services,1,3,Start-up,2500000,Flying Kiwi Angels,"Flying Kiwi Angels, Aspire",0,0,0,0,0,0,0,0,2500000,0,0,0,0,0,2500000,0
+63,2020,Q3,Sep-20,FirstAML,Auckland,Software & Services,1,3,Start-up,2500000,Offshore VC,"Offshore VC, Icehouse Ventures",0,0,0,0,0,0,0,0,2500000,0,0,0,0,0,2500000,0
+64,2020,Q3,Sep-20,Yabble,Auckland,Software & Services,1,1,Start-up,1500000,Hillfarrance,"Hillfarrance, Movac, Aspire",0,0,0,0,0,0,0,0,1500000,0,0,0,0,0,1500000,0
+65,2020,Q4,Oct-20,Alimetry,Auckland,"Pharmaceuticals, Biotechnology & Life Sciences",1,1,Proof of Concept,250000,UniServices,"IP Group, Matu Fund,",0,0,0,0,0,0,0,0,0,250000,0,0,0,0,0,250000
+66,2020,Q4,Oct-20,Helico Bio,Auckland,"Pharmaceuticals, Biotechnology & Life Sciences",1,1,Seed,500000,Icehouse Ventures,"LevelTwo, Private Investors",0,0,0,0,0,0,0,0,0,500000,0,0,0,0,0,500000
+67,2020,Q3,Oct-20,Ranqx,Auckland,Software & Services,1,2,Start-up,500000,Private,Unknown,0,0,0,0,0,0,0,0,0,500000,0,0,0,0,500000,0
+69,2020,Q4,Oct-20,YourCar,Auckland,Software & Services,1,2,Seed,1000000,Icehouse Ventures,Private Investors,0,0,0,0,0,0,0,0,0,1000000,0,0,0,0,0,1000000
+71,2020,Q4,Oct-20,CarbonClick,Auckland,Software & Services,1,2,Seed,2000000,Marlborough Angels,"Marlborough Angels, K1W1, Icehouse",0,0,0,0,0,0,0,0,0,2000000,0,0,0,0,0,2000000
+72,2020,Q4,Oct-20,Heartlab,Auckland,Software & Services,1,1,Seed,1500000,Icehouse Ventures,"Icehouse Ventures, Founders Fund",0,0,0,0,0,0,0,0,0,1500000,0,0,0,0,0,1500000
+75,2020,Q4,Oct-20,Next Minute,Auckland,Software & Services,1,1,Start-up,1500000,Private,"Icehouse Ventures, private investors",0,0,0,0,0,0,0,0,0,1500000,0,0,0,0,0,1500000
+78,2020,Q4,Oct-20,Opum Technology,Auckland,Health Care Equipment & Services,1,2,Start-up,500000,WNT Ventures,"WNT Ventures, UniServices",0,0,0,0,0,0,0,0,0,500000,0,0,0,0,0,500000
+79,2020,Q4,Oct-20,Organic lnitiative,Auckland,Consumer Durables & Apparel,1,1,Start-up,1500000,Private,Pirvate investors,0,0,0,0,0,0,0,0,0,1500000,0,0,0,0,0,1500000
+81,2020,Q4,Oct-20,Remotely,Auckland,Software & Services,1,1,Seed,2500000,Icehouse Ventures,"Icehouse Ventures, Tuhua Ventures",0,0,0,0,0,0,0,0,0,2500000,0,0,0,0,0,2500000
+83,2020,Q4,Oct-20,Spalk,Auckland,Software & Services,1,4,Start-up,750000,Sparkbox,"Sparkbox, Aspire",0,0,0,0,0,0,0,0,0,750000,0,0,0,0,0,750000
+84,2020,Q4,Oct-20,Tradify,Auckland,Software & Services,1,3,Start-up,1500000,Private,"K1W1, private investors",0,0,0,0,0,0,0,0,0,1500000,0,0,0,0,0,1500000
+86,2020,Q3,Oct-20,BoardPro,Auckland,Software & Services,1,2,Start-up,2000000,Private,"Icehouse Ventures, private investors",0,0,0,0,0,0,0,0,0,2000000,0,0,0,0,2000000,0
+87,2020,Q3,Oct-20,Koordinates,Auckland,Software & Services,1,2,Start-up,500000,Private,"Icehouse Ventures, private investors",0,0,0,0,0,0,0,0,0,500000,0,0,0,0,500000,0
+88,2020,Q3,Oct-20,uTecture,Auckland,Software & Services,1,2,Start-up,1500000,Private,Private investors,0,0,0,0,0,0,0,0,0,1500000,0,0,0,0,1500000,0
+89,2020,Q4,Nov-20,Figured Limited,Auckland,Software & Services,1,10,Early Expansion,250000,Enterprise Angels,Enterprise Angels,0,0,0,0,0,0,0,0,0,0,250000,0,0,0,0,250000
+90,2020,Q4,Nov-20,Sharesises,Auckland,Software & Services,1,3,Start-up,2500000,Private,"TradeMe, K1W1, Icehouse Ventures",0,0,0,0,0,0,0,0,0,0,2500000,0,0,0,0,2500000
+91,2020,Q4,Nov-20,StockTrim,Auckland,Software & Services,1,1,Seed,750000,Icehouse Ventures,Private investors,0,0,0,0,0,0,0,0,0,0,750000,0,0,0,0,750000
+93,2020,Q4,Nov-20,VMG Digital,Auckland,Software & Services,1,1,Seed,1000000,Marlborough Angels,"Marlborough Angels, Aspire",0,0,0,0,0,0,0,0,0,0,1000000,0,0,0,0,1000000
+94,2020,Q4,Dec-20,Goodeal,Auckland,Software & Services,1,1,Seed,500000,Icehouse Ventures,Private Investors,0,0,0,0,0,0,0,0,0,0,0,500000,0,0,0,500000
+95,2020,Q4,Dec-20,Mint Innovation,Auckland,Materials,1,2,Start-up,2500000,Movac,"Movac, Blackbird Ventures, Icehosue Ventures",0,0,0,0,0,0,0,0,0,0,0,2500000,0,0,0,2500000
+96,2020,Q4,Dec-20,Multitudes,Auckland,Software & Services,1,1,Start-up,2500000,Blackbird Ventures,"Blackbird, private investors",0,0,0,0,0,0,0,0,0,0,0,2500000,0,0,0,2500000
+97,2020,Q4,Dec-20,Quashed,Auckland,Software & Services,1,1,Seed,750000,Icehouse Ventures,Private Investors,0,0,0,0,0,0,0,0,0,0,0,750000,0,0,0,750000
+98,2020,Q4,Dec-20,Relab,Auckland,Software & Services,1,1,Seed,1000000,Icehouse Ventures,Private Investors,0,0,0,0,0,0,0,0,0,0,0,1000000,0,0,0,1000000
+99,2020,Q4,Dec-20,Relay,Auckland,Software & Services,1,2,Start-up,1500000,Icehouse Ventures,International Funds,0,0,0,0,0,0,0,0,0,0,0,1500000,0,0,0,1500000
+100,2020,Q4,Dec-20,Weirdly,Auckland,Software & Services,1,1,Start-up,750000,Punakaikai Fund,"Punakaikai Fund, K1W1, private investors",0,0,0,0,0,0,0,0,0,0,0,750000,0,0,0,750000
+101,2020,Q4,Dec-20,Datagate Innovation,Auckland,Software & Services,1,4,Start-up,1500000,Enterprise Angels,"Enterprise Angels, Flying Kiwi Angels, Icehouse",0,0,0,0,0,0,0,0,0,0,0,1500000,0,0,0,1500000
+103,2020,Q4,Dec-20,Kwotimation,Auckland,Software & Services,1,1,Seed,500000,Hillfarrance,"Hillfarrance, Flying Kiwi Angels",0,0,0,0,0,0,0,0,0,0,0,500000,0,0,0,500000
+10,2020,Q1,Mar-20,Limpidity,Christchurch City,Transportation,1,2,Start-up,750000,Ice Angels,Private investors,0,0,750000,0,0,0,0,0,0,0,0,0,750000,0,0,0
+31,2020,Q2,Jun-20,EVNEX,Christchurch City,Technology Hardware & Equipment,1,2,Start-up,750000,Canterbury Angels,"Canterbury Angels, Angel HQ, EA",0,0,0,0,0,750000,0,0,0,0,0,0,0,750000,0,0
+33,2020,Q2,Jun-20,Hivemind,Christchurch City,Technology Hardware & Equipment,1,2,Seed,500000,Flying Kiwi Angels,"Flying Kiwi Angels, CA, AIM & other angels",0,0,0,0,0,500000,0,0,0,0,0,0,0,500000,0,0
+43,2020,Q3,Jul-20,Chatterize,Christchurch City,Software & Services,1,1,Seed,1500000,Icehouse Ventures,"AngelHQ, FKA, Blackbird",0,0,0,0,0,0,1500000,0,0,0,0,0,0,0,1500000,0
+44,2020,Q3,Jul-20,HiveMind,Christchurch City,Software & Services,1,1,Seed,750000,Flying Kiwi Angels,"Flying Kiwi Angels, Canterbury Angels, Launch Taranaki",0,0,0,0,0,0,750000,0,0,0,0,0,0,0,750000,0
+55,2020,Q4,Aug-20,Dawn Aerospace Limited,Christchurch City,Technology Hardware & Equipment,1,1,Start-up,750000,Icehouse Ventures,"Icehouse Ventures, Enterprise Angels",0,0,0,0,0,0,0,750000,0,0,0,0,0,0,0,750000
+77,2020,Q4,Oct-20,Onside,Christchurch City,Software & Services,1,1,Seed,2500000,Icehouse Ventures,"Icehouse Ventures, K1W1",0,0,0,0,0,0,0,0,0,2500000,0,0,0,0,0,2500000
+80,2020,Q4,Oct-20,Partly,Christchurch City,Software & Services,1,1,Seed,2000000,Blackbird Ventures,"Blackbird, Hillfarrance, Icehouse Ventures",0,0,0,0,0,0,0,0,0,2000000,0,0,0,0,0,2000000
+105,2020,Q4,Dec-20,TDRI Ltd,Christchurch City,Materials,1,2,Seed,250000,WNT Ventures,WNT Ventures,0,0,0,0,0,0,0,0,0,0,0,250000,0,0,0,250000
+107,2020,Q4,Dec-20,Zincovery,Christchurch City,Materials,1,1,Seed,1500000,Private,"Icehouse Ventures, private investors",0,0,0,0,0,0,0,0,0,0,0,1500000,0,0,0,1500000
+6,2020,Q1,Feb-20,Winely Limited,Dunedin City,Technology Hardware & Equipment,1,2,Proof of Concept,500000,Canterbury Angels,"Canterbury Angels, Aspire",0,500000,0,0,0,0,0,0,0,0,0,0,500000,0,0,0
+39,2020,Q2,Jun-20,TracPlus,Dunedin City,Technology Hardware & Equipment,1,5,Expansion,500000,Movac,"Movac, Aspire",0,0,0,0,0,500000,0,0,0,0,0,0,0,500000,0,0
+47,2020,Q3,Jul-20,InsituGen,Dunedin City,"Pharmaceuticals, Biotechnology & Life Sciences",1,1,Proof of Concept,2000000,Pacific Channel,"Pacific Channel , Aspire Fund, Other investors",0,0,0,0,0,0,2000000,0,0,0,0,0,0,0,2000000,0
+60,2020,Q3,Sep-20,Bison Group,Dunedin City,Technology Hardware & Equipment,1,6,Start-up,1000000,Otago Angels,"Otago Angels, Aspire",0,0,0,0,0,0,0,0,1000000,0,0,0,0,0,1000000,0
+73,2020,Q4,Oct-20,Humblebee,Dunedin City,Materials,1,3,Seed,500000,Sparkbox,"Sparkbox, Angel HQ, Icehouse,  Aspire",0,0,0,0,0,0,0,0,0,500000,0,0,0,0,0,500000
+74,2020,Q4,Oct-20,Mastaplex,Dunedin City,"Pharmaceuticals, Biotechnology & Life Sciences",1,3,Start-up,750000,Enterprise Angels,"Enterprise Angels, K1W1, Aspire",0,0,0,0,0,0,0,0,0,750000,0,0,0,0,0,750000
+85,2020,Q4,Oct-20,Winely,Dunedin City,Software & Services,1,3,Start-up,2000000,Offshore VC,"Canterbury Angls, offshore investors",0,0,0,0,0,0,0,0,0,2000000,0,0,0,0,0,2000000
+104,2020,Q4,Dec-20,Get Home Safe,Dunedin City,Software & Services,1,1,Start-up,750000,Otago Angels,"Punakaikai Fund, Otago Angels",0,0,0,0,0,0,0,0,0,0,0,750000,0,0,0,750000
+52,2020,Q3,Aug-20,Ligar,Hamilton City,Capital Goods,1,3,Seed,1000000,N/A (rights issue),"Matu Fund, Waikatolink, K1W1, Aspire",0,0,0,0,0,0,0,1000000,0,0,0,0,0,0,1000000,0
+102,2020,Q4,Dec-20,Hot Lime Labs,Lower Hutt City,Technology Hardware & Equipment,1,3,Seed,2500000,Flying Kiwi Angels,"Flying Kiwi Angels, others",0,0,0,0,0,0,0,0,0,0,0,2500000,0,0,0,2500000
+27,2020,Q2,May-20,Biolumic Limited,Palmerston North City,Technology Hardware & Equipment,1,6,Expansion,750000,Offshore VC,"MIG, Aspire, offshore VC",0,0,0,0,750000,0,0,0,0,0,0,0,0,750000,0,0
+54,2020,Q3,Aug-20,Biolumic Limited,Palmerston North City,Technology Hardware & Equipment,1,6,Early Expansion,2000000,Offshore VC,"Finistere Ventures, MIG, Enterprise Angels, Aspire",0,0,0,0,0,0,0,2000000,0,0,0,0,0,0,2000000,0
+1,2020,Q1,Jan-20,Mastaplex,Tauranga City,"Pharmaceuticals, Biotechnology & Life Sciences",1,4,Start-up,500000,Enterprise Angels,"Enterprise Angels, Aspire",500000,0,0,0,0,0,0,0,0,0,0,0,500000,0,0,0
+13,2020,Q1,Mar-20,Rockit Global Limited (formerly Havelock North Fruit),Unknown,Food & Beverages,1,5,Expansion,2500000,Offshore VC,"Enterprise Angels, Aspire",0,0,2500000,0,0,0,0,0,0,0,0,0,2500000,0,0,0
+68,2020,Q3,Oct-20,Shoots,Unknown,Unknown,1,1,Unknown,250000,Private,Unknown,0,0,0,0,0,0,0,0,0,250000,0,0,0,0,250000,0
+92,2020,Q4,Nov-20,TrackBack,Unknown,Unknown,1,1,Start-up,250000,LIC,Unknown,0,0,0,0,0,0,0,0,0,0,250000,0,0,0,0,250000
+106,2020,Q4,Dec-20,Upstock,Unknown,Unknown,1,1,Unknown,2500000,Private,"Icehouse Ventures, private investors",0,0,0,0,0,0,0,0,0,0,0,2500000,0,0,0,2500000
+76,2020,Q4,Oct-20,Nyriad Nominees Limited,Waikato,Software & Services,1,7,Start-up,500000,WNT Ventures,"WNT Ventures, Enterprise Angels",0,0,0,0,0,0,0,0,0,500000,0,0,0,0,0,500000
+59,2020,Q3,Sep-20,Maddcog,Queenstown-Lakes District,Technology Hardware & Equipment,1,1,Seed,500000,Icehouse Ventures,Private Investors,0,0,0,0,0,0,0,0,500000,0,0,0,0,0,500000,0
+2,2020,Q1,Jan-20,Runn Fast Ltd,Wellington City,Software & Services,1,1,Start-up,500000,Private,"Aspire, private investors",500000,0,0,0,0,0,0,0,0,0,0,0,500000,0,0,0
+12,2020,Q1,Mar-20,PriceTech Ltd (t/a MarginFuel),Wellington City,Software & Services,1,4,Start-up,500000,Angel HQ,"Angel HQ, Aspire",0,0,500000,0,0,0,0,0,0,0,0,0,500000,0,0,0
+15,2020,Q1,Mar-20,Tapi,Wellington City,Software & Services,1,1,Start-up,1500000,Angel HQ,Private HNW,0,0,1500000,0,0,0,0,0,0,0,0,0,1500000,0,0,0
+18,2020,Q1,Mar-20,Landlord Studio,Wellington City,Software & Services,1,2,Start-up,500000,Angel HQ,Private HNW,0,0,500000,0,0,0,0,0,0,0,0,0,500000,0,0,0
+19,2020,Q1,Mar-20,Litmaps,Wellington City,Software & Services,1,1,Start-up,250000,Angel HQ,Unknown,0,0,250000,0,0,0,0,0,0,0,0,0,250000,0,0,0
+30,2020,Q2,Jun-20,Core Schedule,Wellington City,Software & Services,1,1,Start-up,1000000,Punakaikai Fund,"Punakaiki Fund, K1W1, Aspire",0,0,0,0,0,1000000,0,0,0,0,0,0,0,1000000,0,0
+34,2020,Q2,Jun-20,Jaipuna,Wellington City,Software & Services,1,3,Start-up,750000,Angel HQ,"Angel Hq, Enterprise Angels, Canterbury Agnels, Icehouse, Aspire",0,0,0,0,0,750000,0,0,0,0,0,0,0,750000,0,0
+36,2020,Q2,Jun-20,SeenSafety,Wellington City,Consumer Durables & Apparel,1,5,Start-up,750000,Angel HQ,Angel HQ,0,0,0,0,0,750000,0,0,0,0,0,0,0,750000,0,0
+48,2020,Q3,Jul-20,Core Schedule,Wellington City,Software & Services,1,1,Start-up,1500000,Punakaikai Fund,"Punakaikai Fund, K1W1, Aspire",0,0,0,0,0,0,1500000,0,0,0,0,0,0,0,1500000,0
+53,2020,Q3,Aug-20,Arcanum AI Holdings Limited,Wellington City,Software & Services,1,1,Start-up,750000,WNT Ventures,"WNT Ventures, Enterprise Angels",0,0,0,0,0,0,0,750000,0,0,0,0,0,0,750000,0
+61,2020,Q3,Sep-20,Eight360,Wellington City,Software & Services,1,1,Seed,750000,Flying Kiwi Angels,"Flying Kiwi Angels, Angel HQ",0,0,0,0,0,0,0,0,750000,0,0,0,0,0,750000,0
+70,2020,Q4,Oct-20,Author-It,Wellington City,Software & Services,1,5,Early Expansion,2500000,Private,Private investors,0,0,0,0,0,0,0,0,0,2500000,0,0,0,0,0,2500000
+82,2020,Q4,Oct-20,Solve Data,Wellington City,Software & Services,1,1,Start-up,1500000,Offshore VC,"Offshore VC, Movac, Icehosue Ventures",0,0,0,0,0,0,0,0,0,1500000,0,0,0,0,0,1500000
+108,2020,Q4,Dec-20,Powertrip,Wellington City,Software & Services,1,2,Start-up,250000,Angel HQ,Angel HQ,0,0,0,0,0,0,0,0,0,0,0,250000,0,0,0,250000
