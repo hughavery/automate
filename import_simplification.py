@@ -6,7 +6,8 @@ def good_tier_choice(column_data,col_name):
     """checks if a column is relevant for model"""
     ratio = len(column_data) / len(set(column_data))
 
-    #To close to being a tier 1 or all values in column are same
+    #Too close to being a tier 1 or all values in column are same
+    #I chose 1.2 as works ok but could increase to 1.3 or 1.4 
     if 1 < ratio < 1.2 or len(set(column_data)) == 1:
         return False
 
